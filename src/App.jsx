@@ -66,7 +66,7 @@ const App = () => {
 
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/Furniture-store">
       <CartProvider>
       <FavoritesProvider>
       <Navbar cartItems={cartItems} />
